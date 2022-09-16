@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <title>Inicio</title>
+</head>
+
+<body>
+  <header>
+   
+    <div class="header">
+
+      <!--Content before waves-->
+    
+      <div class="inner-header flex">
+      <!--Just the logo.. Don't mind this-->
+      
+     
+     
+      <h1>BIENVENIDO</h1>
+      
+      </div>
+      
+     
+  </header>
+
+
+
+
+  <div id="card">
+    <div id="card-content">
+      <img class="logo" src="/assets/imgs/acceso.png" alt="app-logo">
+      <div id="card-title">
+        
+        
+        <h2>INICIA SESIÓN</h2>
+        <div class="underline-title"></div>
+      </div>
+      <form method="post" class="form">
+        <label for="user-id" style="padding-top: 13px">
+          &nbsp;Matricula
+        </label>
+        <input id="user-id" class="form-content" type="text" name="Matricula" autocomplete="on" required />
+        <div class="form-border"></div>
+
+        <label for="user-password" style="padding-top:22px">&nbsp;Contraseña
+        </label>
+        <input id="user-password" class="form-content" type="password" name="password" required />
+        <div class="form-border"></div>
+
+        
+        <a href="#">
+          <legend id="forgot-pass">Olvido su contraseña?</legend>
+        </a>
+        <br>
+        <input id="submit-btn" type="submit" name="log-in" value="INGRESAR" />
+        <a href="/assets/html/registro.html" id="signup">Aún no tiene cuenta?</a>
+      </form>
+    </div>
+  </div>
+
+
+  <footer>
+    
+     <!--Waves Container-->
+     <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+      </svg>
+      </div>
+      <!--Waves end-->
+      
+      </div>
+      <!--footer ends-->
+      
+      <!--Content starts-->
+      <div class="content flex">
+        <p>©Todos los derechos reservados 2022. UNIDEG Campus San Felipe, Gto. </p>
+      </div>
+      <!--Content ends-->
+  </footer>
+</body>
+
+</html>
