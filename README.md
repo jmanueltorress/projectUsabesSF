@@ -18,3 +18,7 @@ La base de datos(database) del sistema es relacional y esta creada en mysql
 --Edit code with Sublime or VisualStudioCode
 --Run the db in Wammp/ Xammp/workwbench
 
+
+
+*-Clona este proyecto tecleando el siguiente comando en tu terminal bash de git: 
+git clone https://github.com/jmanueltorress/jmprojectUsabesSF
